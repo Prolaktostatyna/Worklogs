@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a0429c13836242105b4b9750ceaad3a3" label="Employee Rate" max_length="40" name="x_1397836_worklog_employee_rate" type="collection">
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Rate" mandatory="true" max_length="40" name="rate" type="float"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_1397836_worklog_projects" type="reference"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

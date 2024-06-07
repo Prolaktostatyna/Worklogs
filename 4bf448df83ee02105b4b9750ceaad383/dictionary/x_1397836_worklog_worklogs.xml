@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a5dc09b832242105b4b9750ceaad39a" label="Worklogs" max_length="40" name="x_1397836_worklog_worklogs" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="0" function_definition="0" label="Hours" mandatory="true" max_length="40" name="hours" type="float"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_1397836_worklog_projects" type="reference"/>
+        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Coding" sequence="0" value="coding"/>
+                <element inactive_on_update="false" label="Testing" sequence="1" value="testing"/>
+                <element inactive_on_update="false" label="Meeting" sequence="2" value="meeting"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

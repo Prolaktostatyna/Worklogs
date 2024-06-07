@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ed6f005f832242105b4b9750ceaad374" label="Projects" max_length="40" name="x_1397836_worklog_projects" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Estimated budget" mandatory="true" max_length="40" name="estimated_budget" type="float"/>
+        <element label="Destription" mandatory="true" max_length="8000" name="destription" type="html"/>
+        <element label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Burned budget" max_length="40" name="burned_budget" type="float"/>
+        <element label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Project workers" mandatory="true" max_length="4000" name="project_workers" type="glide_list"/>
+    </element>
+</database>
