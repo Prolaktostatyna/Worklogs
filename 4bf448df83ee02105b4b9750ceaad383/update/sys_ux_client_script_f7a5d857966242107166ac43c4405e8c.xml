@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Article page">7fa5d8572a624210a9781a5e73c35795</macroponent>
+        <name>Set Current Comment Id</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event, imports}) {
+	api.setState('currentCommentId', event.payload.commentId);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-07 14:59:39</sys_created_on>
+        <sys_id>f7a5d857966242107166ac43c4405e8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Current Comment Id</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_update_name>sys_ux_client_script_f7a5d857966242107166ac43c4405e8c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-07 14:59:39</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

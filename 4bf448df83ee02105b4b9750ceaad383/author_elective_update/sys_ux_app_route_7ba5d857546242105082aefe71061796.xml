@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Custom Portal App Config">e7a5d857836242105b4b9750ceaad354</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Order success</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>order_success</route_type>
+        <screen_type display_value="Order success">fba5d857fd6242101bdf73a1ef3e8997</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-07 14:59:41</sys_created_on>
+        <sys_id>7ba5d857546242105082aefe71061796</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_update_name>sys_ux_app_route_7ba5d857546242105082aefe71061796</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-07 14:59:41</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</application>
+        <file_path/>
+        <instance_id>4fed76721bc6ce10e84d2f8dee4bcb6d</instance_id>
+        <instance_name>dev269010</instance_name>
+        <name>sys_ux_app_route_7ba5d857546242105082aefe71061796</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Custom Portal App Config">e7a5d857836242105b4b9750ceaad354</app_config><description/><extension_point/><fields/><icon/><name>Order success</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>order_success</route_type><screen_type display_value="Order success">fba5d857fd6242101bdf73a1ef3e8997</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-06-07 14:59:41</sys_created_on><sys_id>7ba5d857546242105082aefe71061796</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order success</sys_name><sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package><sys_policy/><sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope><sys_update_name>sys_ux_app_route_7ba5d857546242105082aefe71061796</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-06-07 14:59:41</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>1802704131</payload_hash>
+        <record_name>Order success</record_name>
+        <reverted_from/>
+        <source>2725f503832202105b4b9750ceaad39d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-07 03:18:24</sys_created_on>
+        <sys_id>f3265897836242105b4b9750ceaad38e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18ff0b460000000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>b326589792624210a7a112d182997b8e</update_guid>
+        <update_guid_history>b326589792624210a7a112d182997b8e:1802704131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-07 15:01:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>3042e46e6b4c4e449521c8900a9354e4</sys_id>
+        <sys_metadata>7ba5d857546242105082aefe71061796</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_scope_delete display_value="">88a976ef96bc4e378d3ff5b58dbd1221</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_7ba5d857546242105082aefe71061796</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_7ba5d857546242105082aefe71061796">f3265897836242105b4b9750ceaad38e</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-07 15:01:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

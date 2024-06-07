@@ -7,6 +7,6 @@
         <element label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
         <element label="Burned budget" max_length="40" name="burned_budget" type="float"/>
         <element label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
-        <element label="Project workers" mandatory="true" max_length="4000" name="project_workers" type="glide_list"/>
+        <element label="Project workers" mandatory="true" max_length="4000" name="project_workers" reference="sys_user" type="glide_list"/>
     </element>
 </database>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9a5dc09b832242105b4b9750ceaad39a" label="Worklogs" max_length="40" name="x_1397836_worklog_worklogs" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element default="0" function_definition="0" label="Hours" mandatory="true" max_length="40" name="hours" type="float"/>
-        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_1397836_worklog_projects" type="reference"/>
+        <element active="false" attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element function_definition="0" label="Hours" mandatory="true" max_length="40" name="hours" type="float"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_1397836_worklog_projects" reference_qual="project_workersDYNAMIC90d1921e5f510100a9ad2572f2b477fe" reference_qual_condition="project_workersDYNAMIC90d1921e5f510100a9ad2572f2b477fe" type="reference"/>
         <element label="Short description" max_length="40" name="short_description" type="string"/>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
