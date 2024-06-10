@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">2ec698d7836242105b4b9750ceaad311</macroponent>
+        <name>Reload Worklog List</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log(api, g_list, 'test');
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 12:36:05</sys_created_on>
+        <sys_id>ef3b4b88837a46105b4b9750ceaad351</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Reload Worklog List</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_update_name>sys_ux_client_script_ef3b4b88837a46105b4b9750ceaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 13:12:40</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</application>
+        <file_path/>
+        <instance_id>4fed76721bc6ce10e84d2f8dee4bcb6d</instance_id>
+        <instance_name>dev269010</instance_name>
+        <name>sys_ux_client_script_ef3b4b88837a46105b4b9750ceaad351</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;2ec698d7836242105b4b9750ceaad311&lt;/macroponent&gt;&lt;name&gt;Reload Worklog List&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log(api, g_list, 'test');
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-10 12:36:05&lt;/sys_created_on&gt;&lt;sys_id&gt;ef3b4b88837a46105b4b9750ceaad351&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reload Worklog List&lt;/sys_name&gt;&lt;sys_package display_value="Worklog" source="x_1397836_worklog"&gt;4bf448df83ee02105b4b9750ceaad383&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Worklog"&gt;4bf448df83ee02105b4b9750ceaad383&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_ef3b4b88837a46105b4b9750ceaad351&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-10 13:12:40&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1015878192</payload_hash>
+        <record_name>Reload Worklog List</record_name>
+        <reverted_from/>
+        <source>431ac41f83ee02105b4b9750ceaad3c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 13:12:40</sys_created_on>
+        <sys_id>82f9534c83ba46105b4b9750ceaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190024786ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 13:12:40</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>0af9534cebba46102afc7da95b591723</update_guid>
+        <update_guid_history>0af9534cebba46102afc7da95b591723:-1015878192,dd995b0c66ba46109dd2819c929fc31b:157386519,f679930ce0ba4610c9a3bc96b9b219f2:941337572,d849930caaba46103145d52c95882c98:-1015878192,006853c896ba4610fe30b41fca0c7370:-2011693785,3ad7d788a0ba4610db02f56e24fa4523:-1858982973,e6775b48dfba4610b1a8768855308ad8:1309056038,10d11f8015ba4610df005af231652d5a:62728397,a8b19b8047ba46105ce071174f105104:-1079105037,8691db40cbba46105688647c25be2f0a:-1873037133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 13:26:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>04ede77d4d964a24848e2513853ccc41</sys_id>
+        <sys_metadata>ef3b4b88837a46105b4b9750ceaad351</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reload Worklog List</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_scope_delete display_value="">88a976ef96bc4e378d3ff5b58dbd1221</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_ef3b4b88837a46105b4b9750ceaad351</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_ef3b4b88837a46105b4b9750ceaad351">82f9534c83ba46105b4b9750ceaad324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 13:26:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
