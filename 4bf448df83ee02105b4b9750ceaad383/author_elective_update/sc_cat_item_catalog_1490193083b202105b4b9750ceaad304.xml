@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request to add missing worklog">19101dfc837202105b4b9750ceaad3e3</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 11:07:48</sys_created_on>
+        <sys_id>1490193083b202105b4b9750ceaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request to add missing worklog</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1490193083b202105b4b9750ceaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 11:07:48</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</application>
+        <file_path/>
+        <instance_id>4fed76721bc6ce10e84d2f8dee4bcb6d</instance_id>
+        <instance_name>dev269010</instance_name>
+        <name>sc_cat_item_catalog_1490193083b202105b4b9750ceaad304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request to add missing worklog">19101dfc837202105b4b9750ceaad3e3</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-12 11:07:48</sys_created_on><sys_id>1490193083b202105b4b9750ceaad304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request to add missing worklog</sys_name><sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package><sys_policy/><sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope><sys_update_name>sc_cat_item_catalog_1490193083b202105b4b9750ceaad304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-12 11:07:48</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>698209277</payload_hash>
+        <record_name>Service Catalog.Request to add missing worklog</record_name>
+        <reverted_from/>
+        <source>431ac41f83ee02105b4b9750ceaad3c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 11:07:48</sys_created_on>
+        <sys_id>6c90193083b202105b4b9750ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900c21ecb20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 11:07:48</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ac90193088b20210e94f5da196e9ef06</update_guid>
+        <update_guid_history>ac90193088b20210e94f5da196e9ef06:698209277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request to add missing worklog">7271d97083b202105b4b9750ceaad319</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 11:11:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>986fa8ae58a04ccaa707f886cb824131</sys_id>
+        <sys_metadata>1490193083b202105b4b9750ceaad304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request to add missing worklog</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_parent display_value="Request to add missing worklog">19101dfc837202105b4b9750ceaad3e3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_scope_delete display_value="">88a976ef96bc4e378d3ff5b58dbd1221</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_1490193083b202105b4b9750ceaad304</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_1490193083b202105b4b9750ceaad304">6c90193083b202105b4b9750ceaad307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 11:11:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

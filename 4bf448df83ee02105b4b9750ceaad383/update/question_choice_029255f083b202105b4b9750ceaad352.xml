@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type">bb12d9b083b202105b4b9750ceaad37f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 11:16:39</sys_created_on>
+        <sys_id>029255f083b202105b4b9750ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Coding</sys_name>
+        <sys_package display_value="Worklog" source="x_1397836_worklog">4bf448df83ee02105b4b9750ceaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Worklog">4bf448df83ee02105b4b9750ceaad383</sys_scope>
+        <sys_update_name>question_choice_029255f083b202105b4b9750ceaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 11:16:39</sys_updated_on>
+        <text>Coding</text>
+        <value>coding</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=029255f083b202105b4b9750ceaad352"/>
+</record_update>
